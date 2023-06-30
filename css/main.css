@@ -1,0 +1,52 @@
+.card h3{
+    cursor: pointer;
+}
+
+.card-header:hover{
+    box-shadow: 0 0 6px 3px aqua;
+}
+
+.card{
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    border: 2px solid red;
+    width: 30px;
+    height: 30px;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.close:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+.alert{
+    position: relative;
+}
+
+.delete-task{
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    border: 2px solid red;
+    width: 30px;
+    height: 30px;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+

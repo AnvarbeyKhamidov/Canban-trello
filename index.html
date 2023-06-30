@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-3 mt-3">
+            <button class="btn btn-success btn-block" onclick="showCard()">Show Card</button>
+
+            <div class="card mt-3 d-none" id="card">
+                <div class="card-body">
+                    <textarea name="" id="board-title" class="form-control" placeholder="Add board..."></textarea>
+
+                    <button class="btn btn-success mt-3 d-block ml-auto" onclick="addBoard()" id="add">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-9">
+            <div class="row" id="natija"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
